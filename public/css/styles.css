@@ -1,0 +1,37 @@
+#menu {
+	font-weight: bold;
+	font-family : "Times New Roman";
+}
+
+body {
+	color: white;
+	font-size : 150%;
+	background: url(/image/latex.jpg);
+	background-size:     cover;
+	background-size:     fill;
+	background-repeat:   no-repeat;
+
+}
+
+#profile {
+	width: 30%;
+	height: auto;
+}
+
+
+#logo {
+	animation: rotation 5s infinite linear;
+	height: 200px;
+	width : 200px;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
